@@ -1,0 +1,38 @@
+@import url( reset.css );   
+
+body {
+	font-family: 'Myriad Pro', Arial, Helvetica, sans-serif; 
+	font-size:100%;
+	background-color: #27aae1;
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#27aae1), to(#7880be));
+	background: -webkit-radial-gradient(circle, #27aae1, #7880be);
+	background: -moz-radial-gradient(circle, #27aae1, #7880be); 
+	background: -ms-radial-gradient(circle, #27aae1, #7880be);
+}
+
+a {color:#00aeef; text-decoration:none;}
+a:hover {color:#d8d8d8;}
+
+.fsod {
+
+}
+
+/*btns*/
+.fsod a.btn {
+	position:absolute;
+}
+.fsod a.startBtn {
+	
+}
+.fsod a.stopBtn {
+
+}
+
+
+/*******GAME*******/
+
+/*canvas*/
+.fsod canvas#fsgame {
+	/*background: url('../../images/blimps.jpg') repeat scroll top left;*/
+	background: url('../images/bg-level-1.1.png') no-repeat scroll bottom left;
+}
